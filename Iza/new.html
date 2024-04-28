@@ -2,12 +2,30 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Packages</title>
+    <title>final</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <style>
+        body {
+
+            color: white;
+        }
+
+        .section-title span {
+            font-size: 16px;
+            color: #f36100;
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+
+        .section-title h2 {
+            color: #ffffff;
+            font-size: 32px;
+            font-weight: 600;
+            text-transform: uppercase;
+            margin-top: 8px;
+        }
+
         * {
             box-sizing: border-box;
         }
@@ -46,6 +64,7 @@
             background-color: #0056b3;
         }
     </style>
+
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
@@ -58,76 +77,111 @@
 </head>
 
 <body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#"><img src="https://themewagon.github.io/gymlife/img/logo.png" width="100px"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        ggggggggggggggg
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">kkkkk</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <br><br>
     <h1 style="text-align: center;padding: 3%;background-color: #f36100"><b><i>Packages</i></b></h1>
-    <p style="text-align: center;font-size: 2em;">“Push harder than yesterday if you want a different tomorrow.”</p>
+    <p>“Push harder than yesterday if you want a different tomorrow.”</p>
     <div class="registration-button">
         <a href="applicationform.html">Join Now</a>
     </div>
     <div class="row">
         <div class="column">
-            <img src="img/logo.jpg" alt="Basic package">
+            <img src="img/basic.jpg" alt="Basic Package">
             <div class="image-link">
-                <a href="basic.html" target="_blank"><b>Basic package</b></a>
+                <a href="basic.html" target="_blank">Basic package</a>
             </div>
         </div>
         <div class="column">
-            <img src="img/logo.jpg" alt="Corporate package">
+            <img src="img/corporate.jpg" alt="Corporate Package">
             <div class="image-link">
-                <a href="corporate.html" target="_blank"><b>Corporate package</b></a>
+                <a href="corporate.html" target="_blank">Corporate package</a>
             </div>
         </div>
         <div class="column">
-            <img src="img/logo.jpg" alt="Flexible package">
+            <img src="img/family.jpg" alt="Family Package">
             <div class="image-link">
-                <a href="flexible.html" target="_blank"><b>Flexible package</b></a>
+                <a href="family.html" target="_blank">Family package</a>
             </div>
         </div>
         <div class="column">
-            <img src="img/logo.jpg" alt="Family">
+            <img src="img/family.jpg" alt="Family Package">
             <div class="image-link">
-                <a href="family.html" target="_blank"><b>Family package</b></a>
+                <a href="family.html" target="_blank">Family package</a>
             </div>
         </div>
         <div class="column">
-            <img src="img/logo.jpg" alt="Group package">
+            <img src="img/family.jpg" alt="Family Package">
             <div class="image-link">
-                <a href="group.html" target="_blank"><b>Group package</b></a>
+                <a href="family.html" target="_blank">Family package</a>
             </div>
         </div>
         <div class="column">
-            <img src="img/logo.jpg" alt="Online">
+            <img src="img/family.jpg" alt="Family Package">
             <div class="image-link">
-                <a href="online.html" target="_blank"><b>Online package</b></a>
+                <a href="family.html" target="_blank">Family package</a>
             </div>
         </div>
         <div class="column">
-            <img src="img/logo.jpg" alt="Personal package">
+            <img src="img/family.jpg" alt="Family Package">
             <div class="image-link">
-                <a href="personal.html" target="_blank"><b>Personal package</b></a>
-            </div>
-        </div>
-        <div class="column">
-            <img src="img/logo.jpg" alt="Specialized package">
-            <div class="image-link">
-                <a href="specialized.html" target="_blank"><b>Specialized package</b></a>
+                <a href="family.html" target="_blank">Family package</a>
             </div>
         </div>
 
         <div class="column">
-            <img src="img/logo.jpg" alt="Premium package">
+            <img src="img/family.jpg" alt="Family Package">
             <div class="image-link">
-                <a href="premium.html" target="_blank"><b>Premium package</b></a>
+                <a href="family.html" target="_blank">Family package</a>
             </div>
         </div>
         <div class="column">
-            <img src="img/logo.jpg" alt="Yoga">
+            <img src="img/family.jpg" alt="Family Package">
             <div class="image-link">
-                <a href="yoga.html" target="_blank"><b>Yoga</b></a>
+                <a href="family.html" target="_blank">Family package</a>
             </div>
         </div>
-
-    </div>
+        <div class="column">
+            <img src="img/family.jpg" alt="Family Package">
+            <div class="image-link">
+                <a href="family.html" target="_blank">Family package</a>
+            </div>
+        </div>
     </div>
 
     <div class="container-fluid">
@@ -246,6 +300,7 @@
     </div>
 
     </div>
+
 </body>
 
 </html>
