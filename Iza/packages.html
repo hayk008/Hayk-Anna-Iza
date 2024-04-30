@@ -45,6 +45,25 @@
         .registration-button a:hover {
             background-color: #f36100;
         }
+        .header-container {
+            text-align: center;
+            padding: 3%;
+            background-color: #f36100;
+        }
+
+        .button-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .button-container a {
+            text-decoration: none;
+            color: black;
+            border: 2px solid black;
+            padding:3px;
+            border-radius: 5px;
+            font-size: large;
+        }
     </style>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -97,7 +116,12 @@
     </nav>
     <br><br>
 
-    <h1 style="text-align: center;padding: 3%;background-color: #f36100"><b><i>Packages</i></b></h1>
+    <div class="header-container">
+        <h1><b><i>Packages</i></b></h1>
+        <div class="button-container">
+            <a href="food.html">Go to Home Page</a>
+        </div>
+    </div>
     <div style="background-color: rgb(52, 58, 64)">
         <p style="text-align: center;font-size: 2em;color: white;">“Push harder than yesterday if you want a different
             tomorrow.”</p>
