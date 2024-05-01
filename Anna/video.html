@@ -3,112 +3,118 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Services</title>
+    <title>WORKOUT TIPS</title>
     <link rel= "stylesheet" href="css/anna.css">
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const backToTop = document.getElementById("back-to-top");
+        window.addEventListener("scroll", function () {
+          if (window.pageYOffset> 300) {
+            backToTop.style.display = "block";
+          } else {
+            backToTop.style.display = "none";
+          }
+        });
+       
+        backToTop.addEventListener("click", function (event) {
+          event.preventDefault();
+          window.scrollTo({ top: 0, behavior: "smooth" });
+        });
+      });
+      
+    </script>
+    <style>
+    
+        .button1 {
+            background-color: #ff7000;    
+          color: black;
+          border: 2px solid #555555;
+          padding: 16px 32px;
+          text-align: center;
+          text-decoration: none;
+          text-align: center;
+          font-size: 16px;
+          margin: 4px 2px;
+          transition-duration: 0.4s;
+          cursor: pointer;
+        }
+        
+        .button1:hover {
+          background-color: #ffffff;
+          color: white;
+        }
+
+    
+        </style>
 </head>
 <body>
 <header>
-<div>
-<img src="image/logo.jpg" height="90" width="100">
-<h1> THE BEST PROJECT YOU'LL EVER WORK ON IS YOU</h1>
+<div style="background-color: rgb(253, 253, 253);">
+  <a href="https://www.google.com"><img src="image/logo.png" height="90" width="100"> </a>
+<h1> BE STRONG․ START WHERE YOU ARE. USE WHAT YOU HAVE. DO WHAT YOU CAN.</h1>
 </div>
-<ul id="nav">
-<li><a href="#GY"> Gym</a></li>
-<li><a href="#GW">Group Workouts</a></li>
-<li><a href="#IT">Personal training</a></li>
-<li><a href="#SP">Swimming pool</a></li>
-<li><a href="#YG">Yoga</a></li>
-<li><a href="#SC">Spa center</a></li>
-<li><a href="#SN">Sauna</a></li>
+<ul style="background-color: rgb(52, 58, 64); padding: 1px;" id="nav">
+<p style="text-align: center; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size: xx-large;" ><b>FREE TRAINING PROGRAM</b></p>
 </ul>
 </header>
-<h2 id="GY" style=" font-family: fantasy; text-align: center;"> OUR GYM</h2>
-<img src="image/gym.jpg" height="270" width="440">
-<img src="image/gym1.jpg" height="270" width="440">
-<img src="image/gym2.jpg" height="270" width="440">
-<div style="padding: 20px; margin: 1px; width: 300px; display: inline-block;">
-    <ul style="font-size:x-large; font-family:monospace ;">
-        <li><b style="font-family:sans-serif;">1000 sq/m</b><div> gym <br>area</div></li>
-        <li><b style="font-family:sans-serif;">100 pcs</b><div>exercise equipment<br>cardio machine</div></li>
-        <li><b style="font-family:sans-serif;">5 pcs</b><div>exceptional<br> specialized  <br> exercise equipment</div></li>
-        <li><b style="font-family:sans-serif;">12 </b><div >highly qualified  <br> professional trainers</div></li>
-    </ul> 
+<br><br> <br>
+    <img src="image/vid1.png" height="240" width="440" >  
+    <img src="image/vid2.png" height="240" width="440">
+    <img src="image/vid3.png" height="240" width="440">   
+<div class="grid-container" style=" display: grid; grid-template-columns: 33.3% 33.3% 33%; color: rgb(0, 0, 0); text-align:center; ">
+    <div style="background-color:#000000;font-family: sans-serif;">
+        <h2 style="color: rgb(255, 255, 255);">GYM STATION QW-BICEPS</h2>
+        <button class="button button1"> <a style="color:rgb(0, 0, 0);" href="https://www.youtube.com/watch?v=A5q0kmUZuQI" target="_blank"><b>WATCH VIDEO</b></a> </button>
     </div>
-   <div  style="padding:64px; margin: 1px; width: 850px; display: inline-block; font-size: large; font-family:sans-serif;"> <p >A spacious gym equipped with the American world-famous Life Fitness new generation exercise equipment. The gym, occupying an area of ​​about 1000 sq/m, is equipped with more than 30 pieces of cardio equipment, including treadmills, steppers, ellipticals, bicycles, etc.</p>
-    <p>Separated: </p>
-    <ol>
-    <li>A free weight belt equipped with the famous American Hammer Strength brand of exercise equipment, where there are 1.25, 2.5, 5, 10, 15, 20 and 25 kg discs; a special platform for lifting and dropping weights; dumbbells from 2 to 60 kg in 2 kg increments; exclusive crossover octagon; olympic barbells,</li>
-    <li>Functional and strength training zone with Synergy 360 training equipment, where 20 or more people can train at the same time,</li>
-    <li>Lady Zone section, specially designed for women's comfortable training. </li>
-    </ol>
-    <p style="color:#a30808">Club members have a free consultation and one free training.</p>
-</div>
-<h2 id="GW" style=" font-family: fantasy; text-align: center;">Group Workouts</h2>
-<img src="image/group1.jpg" height="270" width="440">
-<img src="image/group2.jpg" height="270" width="440">
-<img src="image/group3.jpg" height="270" width="440">
-<div class="grid-container" style=" display: grid; grid-template-columns: 33.3% 33.3% 33.3%; color: rgb(0, 0, 0); text-align:center;">
-    <div style="background-color:#000000;">
-        <h2 style="color: rgb(255, 255, 255);">Base</h2>
-        <p style="color: rgb(255, 255, 255);">We’ll establish proper movements and a base level of conditioning to ensure you avoid injury and make progress at your pace.</p>
-        <p style="color: rgb(255, 255, 255);">See what a Base Workout is <a  style="color: #a30808" href = "https://www.youtube.com/watch?v=uPf8TxS4H5Y" target="_blank"> here.</a></p>
-      </div>
-      <div style="background-color:#000000;">
-        <h2 style="color: rgb(255, 255, 255);">Burn</h2>
-        <p style="color: rgb(255, 255, 255);">A high-energy session that uses cardio and weights to help burn up calories.</p>
-        <p style="color: rgb(255, 255, 255);">See what a Burn Workout is <a  style="color: #a30808" href = "https://www.youtube.com/watch?v=zYXAq1aTcQk" target="_blank"> here.</a></p>
-      </div>
+      <div style="background-color:#000000;font-family: sans-serif;">
+        <h2 style="color: rgb(255, 255, 255);">GYM STATION QW-STEP UPS</h2>
+        <button class="button button1"> <a style="color:rgb(0, 0, 0);" href="https://www.youtube.com/watch?v=A5q0kmUZuQI" target="_blank"><b>WATCH VIDEO</b></a> </button>
+    </div>
       
-      <div style="background-color:#000000;">
-        <h2 style="color: rgb(255, 255, 255);">Build</h2>
-        <p style="color: rgb(255, 255, 255);">Get stronger, slimmer and more athletic. Our trainers will help you focus on form and increased strength.</p>
-        <p style="color: rgb(255, 255, 255);">See what a Build Workout is <a style="color: #a30808" href = "https://www.youtube.com/watch?v=uPf8TxS4H5Y" target="_blank"> here.</a></p>
+      <div style="background-color:#000000; font-family: sans-serif;" >
+        <h2 style="color: rgb(255, 255, 255);">GYM STATION QW-CRUNCHES</h2>
+        <button class="button button1"> <a style="color:rgb(0, 0, 0);" href="https://www.youtube.com/watch?v=A5q0kmUZuQI" target="_blank"><b>WATCH VIDEO</b></a> </button>
+    </div>
+    </div>
+<br><br> <br>
+    <img src="image/vid4.png" height="240" width="440" >  
+    <img src="image/vid5.png" height="240" width="440">
+    <img src="image/vid6.png" height="240" width="440">   
+<div class="grid-container" style=" display: grid; grid-template-columns: 33.3% 33.3% 33%; color: rgb(0, 0, 0); text-align:center; font-family: sans-serif;">
+    <div style="background-color:#000000;font-family: sans-serif;">
+        <h2 style="color: rgb(255, 255, 255);">GYM STATION QW-TRICEPS</h2>
+        <button class="button button1"> <a style="color:rgb(0, 0, 0);" href="https://www.youtube.com/watch?v=YPAHQXQowQU" target="_blank"><b>WATCH VIDEO</b></a> </button>
+    </div>
+      <div style="background-color:#000000;font-family: sans-serif;">
+        <h2 style="color: rgb(255, 255, 255);">GYM STATION QW-BENCH PUSH UP</h2>
+        <button class="button button1"> <a style="color:rgb(0, 0, 0);" href="https://www.youtube.com/watch?v=fzmrvBwMmwI&t=1s" target="_blank"><b>WATCH VIDEO</b></a> </button>
+    </div>
+      
+      <div style="background-color:#000000; font-family: sans-serif;" >
+        <h2 style="color: rgb(255, 255, 255);">GYM STATION QW-SQUAT PRESS</h2>
+        <button class="button button1"> <a style="color:rgb(0, 0, 0);" href="https://www.youtube.com/watch?v=wsQGpaUIAwQS" target="_blank"><b>WATCH VIDEO</b></a> </button>
     </div>
 </div>
-<br>
-<button style="background-color:#a30808"> <a style="color:antiquewhite;" href="Izabellayi patetneri linke" target="_blank">Click here for group training packages.</a> </button>
-<h2 id="IT" style=" font-family: fantasy; text-align: center;">Personal training</h2>
-<img src="image/indu1.jpg" height="270" width="440">
-<img src="image/indu2.jpg" height="270" width="440">
-<img src="image/indu3.jpg" height="270" width="440">
-<h3>Why Choose Personal Training?</h3>
-<p>Despite what many people believe, personal trainers are not strictly for beginners. Though they can certainly train first-timers, anyone who has a goal is a good candidate for personal training. Everybody – and every body – is different and will encounter different obstacles. For some, losing weight can be challenging, while others can struggle with building muscle mass. A personal trainer can create workouts that will specifically target your goals.</p>
-<h4>Additional benefits include:</h4>
-<ul>
-<li>Motivation and accountability. It’s hard to skip the gym when you have a scheduled session with a trainer. During your workout, they’ll push you to your limits and beyond to help you see results.</li>
-<li>Goal planning. Many people have very broad goals: lose weight, build muscle, increase energy. But these vague goals sometimes make it hard to measure results. A trainer can help you identify specific, achievable goals. </li>
-<li>Pre-planned workouts. Getting to the gym is only half the battle. Once there, it can be tough, and sometimes overwhelming, to know where to start. With personal training, all you need to do is show up. They’ll have a workout ready to go and show you exactly what to do. </li>
-<li>Advice and expertise. Your fitness journey doesn’t end when your personal training session ends. Our coaches can teach you proper form, discuss your diet, and make recommendations about what to do after your sessions. </li>
-</ul>
-<p>If you’re ready to commit to getting in the best shape of your life, personal training is a great place to start. We’ll begin with an evaluation of your current fitness level and create a Personal Health Plan that will hold you accountable. Our certified personal trainers are ready to assist you, so stop making excuses and let’s get to work.</p> 
-<button style="background-color:#a30808"> <a style="color:antiquewhite;" href="Izabellayi patetneri linke" target="_blank">Click here for personal training packages.</a> </button>
-
-<h2 id="SP" style=" font-family: fantasy; text-align: center;">Swimming pool</h2>
-
-<img src="image/indu1.jpg" height="270" width="440">
-<img src="image/indu2.jpg" height="270" width="440">
-<img src="image/indu3.jpg" height="270" width="440">
-
-<h2 id="YG" style=" font-family: fantasy; text-align: center;">Yoga</h2>
-
-<img src="image/indu1.jpg" height="270" width="440">
-<img src="image/indu2.jpg" height="270" width="440">
-<img src="image/indu3.jpg" height="270" width="440">
-
-<h2 id="SC" style=" font-family: fantasy; text-align: center;">Spa center</h2>
-
-<img src="image/indu1.jpg" height="270" width="440">
-<img src="image/indu2.jpg" height="270" width="440">
-<img src="image/indu3.jpg" height="270" width="440">
-
-
-<h2 id="SN" style=" font-family: fantasy; text-align: center;">Sauna</h2>
-
-<img src="image/indu1.jpg" height="270" width="440">
-<img src="image/indu2.jpg" height="270" width="440">
-<img src="image/indu3.jpg" height="270" width="440">
-
-
-            
+<br><br> <br>
+    <img src="image/vid8.png" height="240" width="440" >  
+    <img src="image/vid7.png" height="240" width="440">
+    <img src="image/vid9.png" height="240" width="440">   
+<div class="grid-container" style=" display: grid; grid-template-columns: 33.3% 33.3% 33%; color: rgb(0, 0, 0); text-align:center; font-family: sans-serif;">
+    <div style="background-color:#000000;font-family: sans-serif;">
+        <h2 style="color: rgb(255, 255, 255);">SQUAT PROGRESSIONS</h2>
+        <button class="button button1"> <a style="color:rgb(0, 0, 0);" href="https://www.youtube.com/watch?v=K9sChw6eXl4" target="_blank"><b>WATCH VIDEO</b></a> </button>
+    </div>
+      <div style="background-color:#000000;font-family: sans-serif;">
+        <h2 style="color: rgb(255, 255, 255);">SNATCH PROGRESSIONS</h2>
+        <button class="button button1"> <a style="color:rgb(0, 0, 0);" href="https://www.youtube.com/watch?v=XaTpTI4LXKY" target="_blank"><b>WATCH VIDEO</b></a> </button>
+    </div>
+      
+      <div style="background-color:#000000; font-family: sans-serif;" >
+        <h2 style="color: rgb(255, 255, 255);">CLEAN PROGRESSIONS</h2>
+        <button class="button button1"> <a style="color:rgb(0, 0, 0);" href="https://www.youtube.com/watch?v=rSsjU6w5ttg" target="_blank"><b>WATCH VIDEO</b></a> </button>
+    </div>
+</div>
+<BR><BR>
+  <a href="#top" id="back-to-top" class="back-to-top" title="Back to top">▲</a>  
 </body>
 </html>
