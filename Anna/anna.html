@@ -5,110 +5,175 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Services</title>
     <link rel= "stylesheet" href="css/anna.css">
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const backToTop = document.getElementById("back-to-top");
+        window.addEventListener("scroll", function () {
+          if (window.pageYOffset> 300) {
+            backToTop.style.display = "block";
+          } else {
+            backToTop.style.display = "none";
+          }
+        });
+       
+        backToTop.addEventListener("click", function (event) {
+          event.preventDefault();
+          window.scrollTo({ top: 0, behavior: "smooth" });
+        });
+      });
+      
+    </script>
 </head>
 <body>
+  <audio src="Imagine Dragons - Believer (feat. Lil Wayne).mp3" controls></audio>
 <header>
-<div>
-<img src="image/logo.png" height="90" width="100">
-<h1> THE BEST PROJECT YOU'LL EVER WORK ON IS YOU</h1>
+<div style="background-color: rgb(253, 253, 253);">
+  <a href="https://www.google.com"><img src="image/logo.png" height="90" width="100"> </a>
+<h1> BE STRONG․ START WHERE YOU ARE. USE WHAT YOU HAVE. DO WHAT YOU CAN.</h1>
 </div>
-<ul id="nav">
-<li><a href="#GY"> Gym</a></li>
-<li><a href="#GW">Group Workouts</a></li>
-<li><a href="#IT">Personal training</a></li>
-<li><a href="#SP">Swimming pool</a></li>
-<li><a href="#YG">Yoga</a></li>
-<li><a href="#SC">Spa center</a></li>
-<li><a href="#SN">Sauna</a></li>
+<ul style="background-color: rgb(52, 58, 64);" id="nav">
+<li class="hov"><a href="#GY"> Gym</a></li>
+<li class="hov"><a href="#GW">Group Trainings</a></li>
+<li class="hov"><a href="#IT">Personal Training</a></li>
+<li class="hov"><a href="#SP">Swimming pool</a></li>
+<li class="hov"><a href="#YG">Yoga</a></li>
+<li class="hov"><a href="#SC">Spa center</a></li>
 </ul>
 </header>
-<h2 id="GY" style=" font-family: fantasy; text-align: center;"> OUR GYM</h2>
+<h2 id="GY" style=" font-family:Verdana, Geneva, Tahoma, sans-serif; text-align: center;"> OUR GYM</h2>
+<BR>
 <img src="image/gym.jpg" height="270" width="440">
 <img src="image/gym1.jpg" height="270" width="440">
 <img src="image/gym2.jpg" height="270" width="440">
 <div style="padding: 20px; margin: 1px; width: 300px; display: inline-block;">
-    <ul style="font-size:x-large; font-family:monospace ;">
-        <li><b style="font-family:sans-serif;">1000 sq/m</b><div> gym <br>area</div></li>
-        <li><b style="font-family:sans-serif;">100 pcs</b><div>exercise equipment<br>cardio machine</div></li>
-        <li><b style="font-family:sans-serif;">5 pcs</b><div>exceptional<br> specialized  <br> exercise equipment</div></li>
-        <li><b style="font-family:sans-serif;">12 </b><div >highly qualified  <br> professional trainers</div></li>
-    </ul> 
+    <ol style="font-size:x-large; font-family:monospace;">
+      <img src="image/gant.jpg" height="50" width="50"><div><b style="font-family:sans-serif;">1000 sq/m</b></div><div> gym area</div>
+      <img src="image/gant.jpg" height="50" width="50"><div><b style="font-family:sans-serif;">100 pcs</b></div><div>exercise equipment<br>cardio machine</div>
+      <img src="image/gant.jpg" height="50" width="50"><div><b style="font-family:sans-serif;">5 pcs</b></div><div>exceptional<br> specialized  <br> exercise equipment</div>
+      <img src="image/gant.jpg" height="50" width="50"><div><b style="font-family:sans-serif;">12 </b></div><div >highly qualified  <br> professional trainers</div>
+    </ol> 
     </div>
-   <div  style="padding:64px; margin: 1px; width: 850px; display: inline-block; font-size: large; font-family:sans-serif;"> <p >A spacious gym equipped with the American world-famous Life Fitness new generation exercise equipment. The gym, occupying an area of ​​about 1000 sq/m, is equipped with more than 30 pieces of cardio equipment, including treadmills, steppers, ellipticals, bicycles, etc.</p>
+   <div  style="padding:70px;  width: 847px; text-align: justify; display: inline-block; font-size: large; font-family:sans-serif;"> 
+    <p>ABOUT OUR GYM</p>
+    <p>You Want It. We’ve Got It.</p>
+    <p >A spacious gym equipped with the American world-famous Life Fitness new generation exercise equipment. The gym, occupying an area of ​​about 1000 sq/m, is equipped with more than 30 pieces of cardio equipment, including treadmills, steppers, ellipticals, bicycles, etc.</p>
     <p>Separated: </p>
-    <ol>
-    <li>A free weight belt equipped with the famous American Hammer Strength brand of exercise equipment, where there are 1.25, 2.5, 5, 10, 15, 20 and 25 kg discs; a special platform for lifting and dropping weights; dumbbells from 2 to 60 kg in 2 kg increments; exclusive crossover octagon; olympic barbells,</li>
-    <li>Functional and strength training zone with Synergy 360 training equipment, where 20 or more people can train at the same time,</li>
-    <li>Lady Zone section, specially designed for women's comfortable training. </li>
-    </ol>
-    <p style="color:#a30808">Club members have a free consultation and one free training.</p>
-</div>
-<h2 id="GW" style=" font-family: fantasy; text-align: center;">Group Workouts</h2>
-<img src="image/group1.jpg" height="270" width="440">
+   <p> A free weight belt equipped with the famous American Hammer Strength brand of exercise equipment, where there are 1.25, 2.5, 5, 10, 15, 20 and 25 kg discs; a special platform for lifting and dropping weights; dumbbells from 2 to 60 kg in 2 kg increments; exclusive crossover octagon; olympic barbells,Functional and strength training zone with Synergy 360 training equipment, where 20 or more people can train at the same time,Lady Zone section, specially designed for women's comfortable training. </p>
+<p>Our team of personal trainers and fitness professionals are ready to assist you in reaching your training goals, whether you’re just getting started and need some guidance or if you’re an experienced gym goer who wants to take it to the next level. We are your ultimate fitness destination.</p>
+   <p style="color: #ff7000">Club members have a free consultation and one free training.</p>
+   <button style="background-color:#ff7000; font-size: medium;"> <a style="color:rgb(255, 255, 255);" href="Izabellayi patetneri linke" target="_blank">JOIN NOW & GET 2 VISITS FREE!</a> </button>
+  </div>
+<h2 id="GW" style=" font-family:Verdana, Geneva, Tahoma, sans-serif; text-align: center;">GROUP TRAININGS</h2>
+<BR> <img src="image/group1.jpg" height="270" width="440">
 <img src="image/group2.jpg" height="270" width="440">
 <img src="image/group3.jpg" height="270" width="440">
-<div class="grid-container" style=" display: grid; grid-template-columns: 33.3% 33.3% 33.3%; color: rgb(0, 0, 0); text-align:center;">
-    <div style="background-color:#000000;">
+<div class="grid-container" style=" display: grid; grid-template-columns: 33.3% 33.3% 33%; color: rgb(0, 0, 0); text-align:center; font-family: sans-serif;">
+    <div style="background-color:#000000;font-family: sans-serif;">
         <h2 style="color: rgb(255, 255, 255);">Base</h2>
-        <p style="color: rgb(255, 255, 255);">We’ll establish proper movements and a base level of conditioning to ensure you avoid injury and make progress at your pace.</p>
-        <p style="color: rgb(255, 255, 255);">See what a Base Workout is <a  style="color: #a30808" href = "https://www.youtube.com/watch?v=uPf8TxS4H5Y" target="_blank"> here.</a></p>
+        <p style="color: rgb(255, 255, 255);">We’ll establish base level of conditioning to ensure you avoid injury and make progress at your pace.</p>
+        <p style="color: rgb(255, 255, 255);">See what a Base Workout is <a  style="color: #ff7000" href = "https://www.youtube.com/watch?v=uPf8TxS4H5Y" target="_blank"> here.</a></p>
       </div>
-      <div style="background-color:#000000;">
+      <div style="background-color:#000000;font-family: sans-serif;">
         <h2 style="color: rgb(255, 255, 255);">Burn</h2>
         <p style="color: rgb(255, 255, 255);">A high-energy session that uses cardio and weights to help burn up calories.</p>
-        <p style="color: rgb(255, 255, 255);">See what a Burn Workout is <a  style="color: #a30808" href = "https://www.youtube.com/watch?v=zYXAq1aTcQk" target="_blank"> here.</a></p>
+        <p style="color: rgb(255, 255, 255);">See what a Burn Workout is <a  style="color: #ff7000" href = "https://www.youtube.com/watch?v=zYXAq1aTcQk" target="_blank"> here.</a></p>
       </div>
       
-      <div style="background-color:#000000;">
+      <div style="background-color:#000000; font-family: sans-serif;" >
         <h2 style="color: rgb(255, 255, 255);">Build</h2>
         <p style="color: rgb(255, 255, 255);">Get stronger, slimmer and more athletic. Our trainers will help you focus on form and increased strength.</p>
-        <p style="color: rgb(255, 255, 255);">See what a Build Workout is <a style="color: #a30808" href = "https://www.youtube.com/watch?v=uPf8TxS4H5Y" target="_blank"> here.</a></p>
+        <p style="color: rgb(255, 255, 255);">See what a Build Workout is <a style="color: #ff7000" href = "https://www.youtube.com/watch?v=uPf8TxS4H5Y" target="_blank"> here.</a></p>
     </div>
+    <br>
+    <button style="background-color:#ff7000; font-size: medium;"> <a style="color:rgb(255, 255, 255);" href="Izabellayi patetneri linke" target="_blank">CLICK HERE FOR GROUP TRAININGS PACKAGES.</a> </button>
 </div>
-<br>
-<button style="background-color:#a30808"> <a style="color:antiquewhite;" href="Izabellayi patetneri linke" target="_blank">Click here for group training packages.</a> </button>
-<h2 id="IT" style=" font-family: fantasy; text-align: center;">Personal training</h2>
-<img src="image/indu1.jpg" height="270" width="440">
+<BR><BR>
+<h2 id="IT" style=" font-family:Verdana, Geneva, Tahoma, sans-serif; text-align: center;">PERSONAL TRAINING</h2>
+<BR><img src="image/indu1.jpg" height="270" width="440">
 <img src="image/indu2.jpg" height="270" width="440">
 <img src="image/indu3.jpg" height="270" width="440">
-<h3>Why Choose Personal Training?</h3>
+<div  style="padding:70px;  width: 1200px; text-align: justify; display: inline-block; font-size: large; font-family:sans-serif;"> 
+  <h3>Why Choose Personal Training?</h3>
 <p>Despite what many people believe, personal trainers are not strictly for beginners. Though they can certainly train first-timers, anyone who has a goal is a good candidate for personal training. Everybody – and every body – is different and will encounter different obstacles. For some, losing weight can be challenging, while others can struggle with building muscle mass. A personal trainer can create workouts that will specifically target your goals.</p>
 <h4>Additional benefits include:</h4>
-<ul>
-<li>Motivation and accountability. It’s hard to skip the gym when you have a scheduled session with a trainer. During your workout, they’ll push you to your limits and beyond to help you see results.</li>
-<li>Goal planning. Many people have very broad goals: lose weight, build muscle, increase energy. But these vague goals sometimes make it hard to measure results. A trainer can help you identify specific, achievable goals. </li>
-<li>Pre-planned workouts. Getting to the gym is only half the battle. Once there, it can be tough, and sometimes overwhelming, to know where to start. With personal training, all you need to do is show up. They’ll have a workout ready to go and show you exactly what to do. </li>
-<li>Advice and expertise. Your fitness journey doesn’t end when your personal training session ends. Our coaches can teach you proper form, discuss your diet, and make recommendations about what to do after your sessions. </li>
+
+<p>💪Motivation and accountability. It’s hard to skip the gym when you have a scheduled session with a trainer. During your workout, they’ll push you to &nbsp; &nbsp; &nbsp; &nbsp;your limits and beyond to help you see results.</p>
+<p>💪Goal planning. Many people have very broad goals: lose weight, build muscle, increase energy. But these vague goals sometimes make it hard to&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;measure results. A trainer can help you identify specific, achievable goals. </p>
+<p>💪Pre-planned workouts. Getting to the gym is only half the battle. Once there, it can be tough, and sometimes overwhelming, to know where to start.  &nbsp; &nbsp; &nbsp;With personal training, all you need to do is show up. They’ll have a workout ready to go and show you exactly what to do. </p>
+<p>💪Advice and expertise. Your fitness journey doesn’t end when your personal training session ends. Our coaches can teach you proper form, discuss &nbsp; &nbsp; &nbsp; your diet, and make recommendations about what to do after your sessions. </p>
 </ul>
 <p>If you’re ready to commit to getting in the best shape of your life, personal training is a great place to start. We’ll begin with an evaluation of your current fitness level and create a Personal Health Plan that will hold you accountable. Our certified personal trainers are ready to assist you, so stop making excuses and let’s get to work.</p> 
-<button style="background-color:#a30808"> <a style="color:antiquewhite;" href="Izabellayi patetneri linke" target="_blank">Click here for personal training packages.</a> </button>
+<button style="background-color:#ff7000; font-size: medium;" > <a style="color:rgb(255, 255, 255);" href="Izabellayi patetneri linke" target="_blank">CLICK HERE FOR PERSONAL TRAINING PACKAGES.</a> </button>
+</div>
+<BR>
+<h2 id="SP" style=" font-family:Verdana, Geneva, Tahoma, sans-serif; text-align: center;">SWIMMING POOL</h2>
+<BR><img src="image/POOL1.jpg" height="270" width="440">
+<img src="image/POOL3.jpg" height="270" width="440">
+<img src="image/SWIMM3.jpg" height="270" width="440">
+<div style="padding: 20px; margin: 1px; width: 300px; display: inline-block;">
+  <ol style="font-size:x-large; font-family:monospace;">
+    <img src="image/swimm.png" height="50" width="50"><div><b style="font-family:sans-serif;">32 m.</b></div><div> maximum length<br> of the pool</div>
+    <img src="image/swimm.png" height="50" width="50"><div><b style="font-family:sans-serif;">1.44-2 m.</b></div><div>depth<br>of the pool</div>
+    <img src="image/swimm.png" height="50" width="50"><div><b style="font-family:sans-serif;">+27.5 - +30<sup>o</sup></b></div><div>water<br>temperature<br> </div>
+    <img src="image/swimm.png" height="50" width="50"><div><b style="font-family:sans-serif;">+28 - +30<sup>o</sup></b></div><div>air<br>temperature<br> </div>
+  </ol> 
+  </div>
+ <div  style="padding:70px;  width: 847px; text-align: justify; display: inline-block; font-size: large; font-family:sans-serif;"> 
+  <p>INDOOR POOL</p>
+  <p >Swimming pool should be an inseparable part of your daily life. If your body needs to move and your mind needs to relax, then you should consider swimming exercises or fitness in the nearest fitness center. Swimming is a lifetime sport which positively affects not only on the whole body shape, but also on health. Swimming exercises have numerable benefits and positive effect on your well-being. The major one is relaxation you’re getting while in water, which makes you forget about the stress and leads you to the world of tranquility. We offer a wide range of training courses in the swimming pool the most popular and effective of which is aqua aerobics. Swimming pool is recommended for those with spinal problems. It stretches the muscles in the let, hip and lower back. It strengthens cardiovascular system, improves blood circulation and increases immunity of body.</p>
+  <p style=" color: #ff7000; "> Attending Gym’s swimming pool will be ideal for: </p>
+<p> 🏊‍♀️Health and Fitness</p>
+ <p>🏊Swimming & water exercises</p>
+ <p>🏊‍♀️Aquatic Therapy</p>
+ <p>🏊‍♂️Pure Enjoyment</p>
+<p>Now you have a unique opportunity to swim on your own schedule at the perfect swimming pool of Gym Station and relax to the fullest. Gym Station swimming pool has a unique water cleaning system with ultraviolet disinfection of water which is the only one in Armenia. The ultraviolet disinfection of the water in swimming pool of Gym Station provides irreproachable condition and allows the water to be always crystal clean and have pleasant odor. Swimming pool is open every day from 7.00 till 23.00 on weekdays and from 10.00 till 22.00 on weekends.The water is heated up to 28°C temperature.</p>
+<button style="background-color:#ff7000; font-size: medium;"> <a style="color:rgb(255, 255, 255);" href="Izabellayi patetneri linke" target="_blank">CLICK HERE FOR SWIMMING POOL PACKAGES.</a> </button>
+</div>
+<BR><BR>
 
-<h2 id="SP" style=" font-family: fantasy; text-align: center;">Swimming pool</h2>
+<div style=" font-family: sans-serif;">
+<h2 id="YG" style=" font-family:Verdana, Geneva, Tahoma, sans-serif, serif; text-align: center;">YOGA</h2>
+<BR>
+<img src="image/yog2.jpg" height="270" width="440">
+<img src="image/yog1.jpg" height="270" width="440">
+<img src="image/yog3.jpg" height="270" width="440">
+  <div  style="padding:70px;  width:1200px; text-align: justify; display: inline-block; font-size: large; font-family:sans-serif;"> 
+    <p STYLE="color: #ff7000;">EMBRACE MIND & BODY WELLNESS</p>
+    <p>If you’re looking to increase flexibility, relieve stress, and improve your mental health, yoga classes offer these benefits and so much more. World Gym® offers our members everything they need to be their best, and yoga is an integral part of many of their fitness journeys. One of our most popular group workout classes, yoga can also increase strength, reduce anxiety, and improve your overall quality of life. Contact your local World Gym to learn more about their yoga class schedule.</p>
+      <p>If you’re not sure if yoga is the right group workout class for you, don’t hesitate to chat with one of our team members. They will learn a bit about you and your goals and then direct you toward the best classes to help you become the best version of yourself.</p>
+      <p style=" color: #ff7000; "> Yoga is especially great for those seeking to: </p>
+  <p> 🧘‍♀️Reduce their risk of injury</p>
+   <p>🕉️Increase concentration</p>
+   <p>🧘‍♂️Improve posture</p>
+   <p>🕉️Enhance their mind and body connection </p>
+   <p>🧘Gain strength and flexibility</p>
+   <p>Yoga is for everyone! Whether you are looking to lose weight or build muscle, a first-timer, or a lifelong athlete, there are plenty of benefits from taking a yoga class. Yoga is so much more than just stretching. It incorporates physical, mental, and spiritual practices that calm the mind and provide a variety of physical and mental health benefits. Our instructors will guide you through all the moves and make sure you have the correct form. </p>
+   <button style="background-color:#ff7000; font-size: medium;"> <a style="color:rgb(255, 255, 255);" href="Izabellayi patetneri linke" target="_blank">CLICK HERE FOR YOGA PACKAGES.</a> </button>
+  </div>
+</div>
+<BR><BR>
 
-<img src="image/indu1.jpg" height="270" width="440">
-<img src="image/indu2.jpg" height="270" width="440">
-<img src="image/indu3.jpg" height="270" width="440">
+<div style=" font-family: sans-serif;">
+  <h2 id="SC" style=" font-family:Verdana, Geneva, Tahoma, sans-serif; text-align: center;">SPA CENTER</h2>
+  <BR><img src="image/SPA2.jpg" height="270" width="440">
+    <img src="image/SPA2.jpeg" height="270" width="440">
+    <img src="image/SPA3.jpg" height="270" width="440">
 
-<h2 id="YG" style=" font-family: fantasy; text-align: center;">Yoga</h2>
-
-<img src="image/indu1.jpg" height="270" width="440">
-<img src="image/indu2.jpg" height="270" width="440">
-<img src="image/indu3.jpg" height="270" width="440">
-
-<h2 id="SC" style=" font-family: fantasy; text-align: center;">Spa center</h2>
-
-<img src="image/indu1.jpg" height="270" width="440">
-<img src="image/indu2.jpg" height="270" width="440">
-<img src="image/indu3.jpg" height="270" width="440">
-
-
-<h2 id="SN" style=" font-family: fantasy; text-align: center;">Sauna</h2>
-
-<img src="image/indu1.jpg" height="270" width="440">
-<img src="image/indu2.jpg" height="270" width="440">
-<img src="image/indu3.jpg" height="270" width="440">
-
-
-            
+     <div  style="padding:70px;  width: 1200px; text-align: justify; display: inline-block; font-size: large; font-family:sans-serif;"> 
+      <p style="color:#ff7000">RELAX. RESTORE. REJUVENATE.</p>
+        <p>Get the bodywork you deserve! </p>
+      <p>  Indulge your mind and soul, relax, recuperate and leave feeling rejuvenated at the Thai Atmosphere Spa of GYM STATION. Whether you wish to escape the stress of day to day life or just enjoy a little treat for yourself, we have something for everyone. Our skilled Thai professionals are trained to the highest level and will tailor each treatment to suit your needs. All guests while taking full body massage therapies receive complimentary access to our health club facilities while visiting our spa, including a variety of steam, dry and herbal saunas, cozy hot stone loungers as well as comfortable tea corner with Asian teas. Spend an hour, or spend the day here with your friends or family, you will emerge, refreshed and renewed.</p>
+    <p style="color:#ff7000"> Recommended services:</p>
+    <p>🌿Body care</p>
+    <p>💆‍♀️Massage</p>
+     <p>🌿Body modeling</p>
+     <p>💆‍♀️SPA care</p>
+     <p>🌿Sauna</p>
+     <p>SPA salon operating in GYM STATION, separate for women: men and women, recreation area, swimming pool, infrared room, Finnish sauna, steam sauna, salt: massage rooms. There is a restaurant-bar next to it. Multi Beauty Club and SPA specialists present more than 20 SPA programs based on the ancient traditions of the East new based on the latest European technologies, which combine everything you need for complete relaxation, body beauty and perfect well-being.</p>
+     <button style="background-color:#ff7000; font-size: medium;"> <a style="color:rgb(255, 255, 255);" href="Izabellayi patetneri linke" target="_blank">CLICK HERE FOR SPA CENTER PACKAGES.</a> </button>
+     </div>
+</div>
+<BR><BR>
+  <a href="#top" id="back-to-top" class="back-to-top" title="Back to top">▲</a>  
 </body>
 </html>
